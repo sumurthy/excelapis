@@ -1,4 +1,6 @@
 # [Index](index.md)
+# Setup
+## [Setup](misc/setup.md)
 # Data Validation
 ## [Intro](data-validation/data-validation.md)
 ## [Walkthrough](data-validation/data-validation-walkthrough.md)
