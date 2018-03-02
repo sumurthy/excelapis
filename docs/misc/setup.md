@@ -1,6 +1,6 @@
 # Setup
 
-Follow the steps below to try out the APIs yourself. If you want to try the custom functions preview, separate setup steps apply - see ![Custom Functions Setup](setup-custom-functions.md).
+Follow the steps below to try out the APIs yourself. If you want to try the custom functions preview, separate setup steps apply - see [Custom Functions Setup](setup-custom-functions.md).
 
 ## Excel desktop application
 Ensure you have an O365 monthly build of Excel installed on your laptop. Any recent build is sufficient (no need for Dogfood build).
