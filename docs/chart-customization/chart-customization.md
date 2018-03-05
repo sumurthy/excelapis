@@ -63,6 +63,7 @@ The `ChartTrendlineCollection.getItem` method, which will return a exsited trend
 ### Customize trendline
 
 The `ChartTrendline` object have below new properties for user to cusomize it
+
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |backward|double|Represents the number of periods that the trendline extends backward.|
@@ -154,6 +155,7 @@ The `ChartTitle` object have below new properties and methods to customize it
 The `ChartPoint.dataLabel` method, which will return a [ChartDataLabel](https://github.com/OfficeDev/office-js-docs/blob/ExcelJs_OpenSpec/reference/excel/chartdatalabel.md) object, is the entry point for programmatic customize the datalabel.
 
 The `ChartDataLabel` object have below new properties and methods to customize it
+
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |position|string|DataLabelPosition value that represents the position of the data label. Possible values are: None, Center, InsideEnd, InsideBase, OutsideEnd, Left, Right, Top, Bottom, BestFit, Callout.|
