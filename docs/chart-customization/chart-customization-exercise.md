@@ -2,7 +2,6 @@
 
 Here is a table about the Sales of Lemon and Orange in July as below ([SampleDoc](sampleDoc/ExcelChartAPISample.xlsx)).
 
-
 ![Data](image/data.PNG?raw=true)
 ####Step 1
 Using Script Lab, create a script for Excel that will show total sales in July and add a trendline show as below 
