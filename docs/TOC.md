@@ -11,3 +11,8 @@
 ## [Walkthrough](custom-propertis/custom-properties-walkthrough.md)
 ## [Exercise](custom-propertis/custom-properties-exercise.md)
 ## [Survey](custom-propertis/survey.md)
+# Custom Functions
+## [Intro](custom-functions/custom-functions.md)
+## [Walkthrough](custom-functions/custom-functions-walkthrough.md)
+## [Exercise](custom-functions/custom-functions-exercise.md)
+## [Survey](custom-functions/survey.md)
