@@ -1,5 +1,5 @@
 # Walkthrough
-Here are some examples to programatic control series/trendline/title/axis in a chart.
+Here are some examples to programatic control series/trendline/title/axis in a chart. You can try below scripts using ScriptLab in this [Sample file](sampleDoc/ExcelChartAPISample.xlsx) and import this [gist](https://gist.github.com/binwang2017/cd94945f613323205393bd7c9f79a552)
 
 ### Add/delete/customize series
 
