@@ -38,7 +38,7 @@ Your screen should now look like this once you close the developer tools:
 
 ![Alternative Window Setup](../media/maker/AlternativeWindowSetup.png)
 
-**NOTE:** You will have to paste this code in again if you close/minimize the addin.
+>**Note:** You will have to paste this code in again if you close/minimize the addin.
 
 ## Step 2: Import the Template
 On the right side, import the following snippet:
@@ -47,8 +47,10 @@ On the right side, import the following snippet:
 
 ### How to Import a Snippet
 ![Importing Gist](../media/Import-da.png)
+
 ## Step 3: Basic "Hello World"
-After importing the snippet, navigate to the `Script` tab on the editor. There should be comments on lines 8-10 saying `Insert your code here`. This is where you will be placing your code.
+After importing the snippet, navigate to the `Script` tab on the editor. There should be comments on lines 8-10 saying `Insert your code here`. This is where you will be placing your code. (If you're rusty in Javascript, you can find a [cheatsheet here](http://htmlcheatsheet.com/js/).)
+
 ### Problem
 Place the text `Hello World!` into cell `B4`.
 

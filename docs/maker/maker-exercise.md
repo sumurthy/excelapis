@@ -33,7 +33,7 @@ Assume:
 ### **Phase 2**
 Now, adjust your solution so that it works with any number of rows in the table.
 
-**HINT:** Tables can be retrieved via the following statement:
+>**HINT:** Tables can be retrieved via the following statement:
 ```typescript
 const table = workbook.tables.getItem('Table1');
 const rowRange = table.getDataBodyRange();
@@ -42,7 +42,7 @@ const rowRange = table.getDataBodyRange();
 ### **Phase 3**
 Now, make it work with the columns being in any random order.
 
-**HINT:** You can get the range of the headers in a table.
+>**HINT:** You can get the range of the headers in a table.
 
 
 ### **Phase 4**
@@ -57,4 +57,4 @@ In this phase, the goal is to apply each of the different properties to their re
 ![Phase 4 Output](../media/maker/Phase4Output.png)
 
 ## Survey
-Please continue to the [survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1cd-yOFfWxAkdFfv4kfuiVUMTJZRjZKRVMyNE9HM0dHTTNET0c5VjE2Vi4u.
+Please continue to the [survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1cd-yOFfWxAkdFfv4kfuiVUMTJZRjZKRVMyNE9HM0dHTTNET0c5VjE2Vi4u).
