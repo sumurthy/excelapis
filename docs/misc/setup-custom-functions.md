@@ -17,5 +17,12 @@ Host the files on a web server. You can follow the steps below to host and edit 
   5. Wait for your web app to deploy (around 30-90 seconds)
   6. In your Web App resource, scroll down and choose "App Service Editor (Preview)" under Development Tools
   7. In WWWROOT, choose "Upload Files" and upload the HTML and JS files in the sample. (Alternatively, if you prefer your own editor/client, you can deploy to the Azure Web App with git.)
-  8. Copy 
+  8. Create a new folder on your main drive and share it with yourself (Properties > Sharing > Share)
+  9. Copy the XML manifest file from the sample to your shared folder.
+  10. If you've installed XML manifest files before on this computer, modify the name of the file and the ID element (you can use Notepad and change a couple random digits to make sure it doesn't conflict)
+  11. In the XML manifest, modify the INSERT-URL-HERE to the URL you chose for your web app (eg. "mycustomfunctions.azurewebsites.net")
+  12. Launch Excel and configure side-loading at File > Options > Trust Center > Trust Center Settings > Trusted Add-in Catalogs. Enter the path of the shared folder you created (in shared-path format starting with \\). Click "Add catalog" and check the "Show in Menu" box. Click OK and restart Excel
+  13. Insert > My Add-ins > Shared Folder > Custom Functions Sample > Insert
+  14. Type =CONTOSO to get a list of available functions from the sample.
+
 
