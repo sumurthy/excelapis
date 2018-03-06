@@ -1,10 +1,15 @@
 # Exercise
 
-Imagine you are developing an add-in as a simplified interface to the corporation's database. After importing the data from database (sample data provided), your add-in:
+In this exercise, you are going to register an event handler to a worksheet. Once the data in the worksheet is changed, print log in the console
 
-1. Show user which worksheet they are currently on each time they switch between worksheets.
+Step 1: Add some data manually to the worksheet.
 
-1. (in Order sheet) Monitor and highlight the changes. If there is new change, add-in shows a button in the pane asking user if they want to write the change back to server.
+![Add Sample Data](/images/add_sample_data.png)
 
-1. (in Order sheet) Warn the user in add-in pane "Be careful when changing the order ID" if user put the active cell within column B, 
+Step 2: Register OnChanged event hanlder to the worksheet.
 
+
+
+Step 3: Change the value of cells, print the address of the changed cells in the console like:
+
+![Add Sample Data](/images/output.png)
