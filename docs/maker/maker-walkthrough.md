@@ -1,6 +1,6 @@
 # Walkthrough
 ## Step 1: Window Arrangement
-![Maker Window Arrangement](../media/maker/WindowArrangement.png)
+<!-- ![Maker Window Arrangement](../media/maker/WindowArrangement.png)
 Arrange your windows as seen in the screenshot above.
 
 (You can split your screen by pressing `⊞ Win` + `Left Arrow` / `Right Arrow`, or drag to the edge of your screen.)
@@ -10,7 +10,16 @@ On the left, open [Excel Online](https://office.live.com/start/excel.aspx). Crea
 Navigate to [Script Lab](https://bornholm-edge.azurewebsites.net/) in a seperate window.
 
 ## Alternative for Smaller Screens
-If your screen is too small to layout your windows in the method described above, you can do the following. **If the above window configuration works for you, you can skip ahead to step 2**.
+If your screen is too small to layout your windows in the method described above, you can do the following. **If the above window configuration works for you, you can skip ahead to step 2**. -->
+
+Open Google Chrome.
+
+Add `Script Lab` to the workbook. `Insert` > `Office Add-ins` > `Script Lab`. (See [setup](../misc/setup.md) for more detailed information on how to add Script Lab to the workbook.)
+
+Switch to `Alpha` mode.
+
+![Alpha Mode](../media/maker/EnableAlphaMode.png)
+
 
 Open up the developer tools console (`F12`).
 
