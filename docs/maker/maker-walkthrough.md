@@ -1,3 +1,4 @@
+# Walkthrough
 ## Step 1: Window Arrangement
 ![Maker Window Arrangement](../media/maker/WindowArrangement.png)
 Arrange your windows as seen in the screenshot above.
