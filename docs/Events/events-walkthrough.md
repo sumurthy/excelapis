@@ -1,4 +1,4 @@
-#Events walkthrough
+# Events walkthrough
 ### Event triggers
 
 Events within Excel can be triggered by:
@@ -24,7 +24,7 @@ The following code sample registers an event handler for the `onDataChanged` eve
 ```js
 Excel.run(function (context) {
     var worksheet = context.workbook.worksheets.getItem("Sample");
-    worksheet.onDataChanged.add(handleDataChange);
+    worksheet.onChanged.add(handleDataChange);
 
     return context.sync()
         .then(function () {
@@ -68,7 +68,7 @@ Excel.run(function (context) {
         });
 }).catch(errorHandlerFunction);
 
-function handleSelectionChange(event)
+function handleSelectionChange(eventargs)
 { 
     return Excel.run(function(context){
         return context.sync()
