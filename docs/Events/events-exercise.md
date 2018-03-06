@@ -10,6 +10,6 @@ Step 2: Register OnChanged event hanlder to the worksheet.
 
 
 
-Step 3: Change the value of cells, print the address of the changed cells in the console like:
+Step 3: Change any value of cells, print the address of the changed cells in the console in your event handler like:
 
 ![Output examples](https://github.com/ShawnNiu/excelapis/blob/master/docs/Events/images/output.png)
