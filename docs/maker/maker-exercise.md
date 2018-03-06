@@ -20,15 +20,15 @@ The objective of this exercise is to set formatting on each cell of the table bo
 ![Basic Output](../media/maker/BasicExerciseOutput.png)
 ## Phases
 
-This problem has been broken up into multiple phases each with increasing difficulty.
+See above for the desired output. This problem has been broken up into multiple phases each with increasing difficulty. *Feel free to start at whichever phase you feel comfortable with, and work your way up.*
 ### **Phase 1**
-For this phase, don't worry about the column headers. Feel free to start at whichever phase you feel comfortable with, and work your way up.
+For this phase, don't worry about the column headers.
 
 Assume:
-* `A2:A4` will be `Font Name`
-* `B2:B4` will be `Font Size`
-* `C2:C4` will be `Font Color`
-* `D2:D4` will be `Fill Color`
+* Change the `Font Name` for range `A2:A4`
+* Change the `Font Size` for range `B2:B4`
+* Change the `Font Color` for range `C2:C4`
+* Change the `Fill Color` for range `D2:D4`
 
 ### **Phase 2**
 Now, adjust your solution so that it works with any number of rows in the table.
@@ -36,6 +36,7 @@ Now, adjust your solution so that it works with any number of rows in the table.
 **HINT:** Tables can be retrieved via the following statement:
 ```typescript
 const table = workbook.tables.getItem('Table1');
+const rowRange = table.getDataBodyRange();
 ```
 
 ### **Phase 3**
@@ -56,4 +57,4 @@ In this phase, the goal is to apply each of the different properties to their re
 ![Phase 4 Output](../media/maker/Phase4Output.png)
 
 ## Survey
-Please continue to the [survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1cd-yOFfWxAkdFfv4kfuiVUMTJZRjZKRVMyNE9HM0dHTTNET0c5VjE2Vi4u).
+Please continue to the [survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1cd-yOFfWxAkdFfv4kfuiVUMTJZRjZKRVMyNE9HM0dHTTNET0c5VjE2Vi4u.

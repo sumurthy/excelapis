@@ -1,4 +1,3 @@
-# Maker
 # Comparison with Traditional OfficeJS
 ## Loads and Syncs
 The biggest difference between the Traditional OfficeJS examples and the ExcelMakerJS examples is that the latter does not require any `.load("{property}")` or `await context.sync()`.
@@ -109,4 +108,4 @@ It is also possible to access any workbook stored in OneDrive via Microsoft Grap
 ```typescript
     const workbook = Experimental.ExcelMaker.getWorkbook('{your_workbook_url}');
 ```
-Note: To obtain `{your_workbook_url}` you can use the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer), or [this tool](https://onedrivegraphtool.azurewebsites.net/) built specifically for this purpose.
+**Note:** To obtain `{your_workbook_url}` you can use the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer), or [this tool](https://onedrivegraphtool.azurewebsites.net/) built specifically for this purpose.
